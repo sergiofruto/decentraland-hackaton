@@ -1,0 +1,64 @@
+section.judges {
+  .judges-grid {
+    position: relative;
+    padding-top: 40px;
+  }
+
+  .judges-grid {
+    margin: 0 auto;
+
+    @media #{$tablet} {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media #{$desktop} {
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 1064px;
+    }
+  }
+
+  .judge-item {
+    padding: 48px 8px;
+    text-align: center;
+  }
+
+  .judge-picture {
+    width: 120px;
+    border-radius: 50%;
+    margin: 0 auto 24px;
+  }
+
+  .judge-title {
+    margin: 0 0 4px;
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 0.31px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .judge-info {
+    max-width: 320px;
+    margin: 0 auto 24px;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: center;
+    color: var(--light-white);
+  }
+
+  .social-links > a {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--pink);
+    cursor: pointer;
+  }
+
+  .social-links > a:not(:last-child) {
+    margin-right: 32px;
+  }
+}

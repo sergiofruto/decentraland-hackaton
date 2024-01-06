@@ -1,0 +1,141 @@
+:root {
+  --black: #07080E;
+  --white: #FFFFFF;
+  --light-white: rgba(255, 255, 255, .64);
+  --pink: #FF2D55;
+  --blue: #261FA9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--black);
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('images/new-bg-phone-x2.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+
+  @media screen and (min-width: 414px) {
+    background-image: url('images/new-bg-phone-x3.jpg');
+  }
+
+  @media #{$tablet} {
+    background-image: url('images/new-bg-tablet.jpg');
+  }
+
+  @media #{$desktop} {
+    background-image: url('images/new-bg-desktop.jpg');
+    background-position-y: -100px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    background-size: 1440px auto;
+    background-position-x: center;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav > li > a {
+  transition: color $default-transition;
+}
+
+.navbar-logo img {
+  width: 52px;
+}
+
+section {
+  padding: 90px 0;
+
+  @media #{$tablet-landscape} {
+    padding: 120px 0;
+  }
+}
+
+.button {
+  background-color: var(--pink);
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  outline: 0;
+  -webkit-appearance: none;
+  cursor: pointer;
+  padding: 10px 32px;
+  margin: 0;
+  user-select: none;
+  transition: background-color 250ms ease;
+  text-transform: uppercase;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #ff5373;
+  border-color: #ff5373;
+}
+
+.section-title {
+  margin: 0 auto 8px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #FFFFFF;
+
+  @media #{$tablet} {
+    font-size: 34px;
+  }
+
+  @media #{$desktop} {
+    margin: 0 auto 12px;
+    font-size: 48px;
+  }
+}
+
+.section-subtitle {
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--light-white);
+
+  @media #{$tablet} {
+    font-size: 21px;
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 0 18px;
+}

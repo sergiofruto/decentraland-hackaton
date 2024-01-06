@@ -1,0 +1,126 @@
+section.hero {
+  padding: 122px 0 246px;
+  color: white;
+  min-height: 100vh;
+
+  @media #{$tablet} {
+    padding: 200px 0 424px;
+  }
+
+  @media #{$desktop} {
+    padding: 220px 0;
+  }
+
+  .inner-wrapper {
+    @media #{$tablet} {
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    @media #{$desktop} {
+      max-width: 720px;
+    }
+  }
+
+  .title {
+    margin: 0 0 8px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #FFFFFF;
+
+    @media #{$tablet} {
+      font-size: 5rem;
+      line-height: 1.1;
+    }
+  }
+
+  .subtitle {
+    margin: 0 0 34px;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #FFFFFF;
+
+    span:first-child {
+      color: var(--pink);
+    }
+
+    span.spacer {
+      width: 1px;
+      height: 20px;
+      background-color: #d8d8d8;
+      display: inline-block;
+      margin: 0px 15px 0;
+      transform: skew(-15deg) translateY(4px);
+    }
+  }
+
+  .intro {
+    margin: 0 0 40px;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .sign-up-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    margin: 0 auto;
+
+    @media #{$tablet} {
+      flex-direction: row;
+      max-width: 420px;
+    }
+
+    .text-input {
+      padding: 10px 32px;
+      margin-bottom: 8px;
+      border: 0;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 24px;
+      text-align: center;
+      color: #736E7D;
+      outline: 0;
+      -webkit-appearance: none;
+      cursor: pointer;
+
+      @media #{$tablet} {
+        flex: 1 0 auto;
+        padding: 10px 16px;
+        margin: 0 12px 0 0;
+        text-align: left;
+      }
+    }
+
+    .button {
+      @media #{$tablet} {
+        flex: 0 1 128px;
+      }
+    }
+  }
+
+
+  .sign-up-disclaimer {
+    display: block;
+    max-width: 280px;
+    margin: 12px auto 0;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-align: center;
+    color: var(--light-white);
+
+    @media #{$tablet} {
+      max-width: none;
+    }
+  }
+}

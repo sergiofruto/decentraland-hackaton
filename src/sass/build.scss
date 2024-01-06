@@ -1,0 +1,127 @@
+section.build {
+  .grid {
+    display: grid;
+    padding: 0 8px;
+    margin: 0 auto;
+
+    @media #{$tablet} {
+      padding: 0 24px;
+    }
+
+    @media #{$desktop} {
+      max-width: 1224px;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 40px;
+      grid-row-gap: 48px;
+    }
+  }
+
+  .grid-item {
+    padding: 72px 36px;
+    border: 2px solid #27252B;
+    border-radius: 12px;
+    text-align: center;
+
+    @media #{$tablet} {
+      padding: 72px 80px;
+    }
+
+    @media #{$desktop} {
+      text-align: left;
+    }
+  }
+
+  .grid-item:first-child {
+    padding-bottom: 228px;
+    background-color: #1D294C;
+    background-image: url('images/fount-illustration.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media #{$tablet} {
+      padding-bottom: 344px;
+      background-image: url('images/fount-illustration-tablet.png');
+    }
+
+    @media #{$desktop} {
+      grid-column: 1 / 3;
+      padding: 72px 80px;
+      background-image: url('images/fount-illustration-desktop.png');
+      background-position: bottom right;
+
+      .section-subtitle {
+        max-width: 720px;
+        margin: 0;
+      }
+    }
+  }
+
+  .grid-item:not(:last-child) {
+    margin-bottom: 8px;
+
+    @media #{$tablet} {
+      margin-bottom: 24px;
+    }
+
+    @media #{$desktop} {
+      margin-bottom: 0;
+    }
+  }
+
+  .section-title {
+    @media #{$desktop} {
+      margin: 0 0 8px;
+      font-size: 34px;
+      text-align: left;
+    }
+  }
+
+  .section-subtitle {
+    @media #{$desktop} {
+      text-align: left;
+    }
+  }
+
+  .top-title {
+    margin: 0;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: var(--pink);
+
+    @media #{$desktop} {
+      text-align: left;
+    }
+  }
+
+  .go-to-link {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 26px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: opacity .25s ease-in;
+
+    &:hover,
+    &:focus,
+    &:active {
+      opacity: .7;
+      transition: opacity .25s ease-out;
+    }
+
+    > span {
+      height: 16px;
+      margin-left: 10px;
+    }
+
+    @media #{$desktop} {
+      text-align: left;
+    }
+  }
+}

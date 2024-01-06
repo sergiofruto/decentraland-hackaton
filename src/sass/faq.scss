@@ -1,0 +1,95 @@
+section.faq {
+  background: #242129;
+  padding: 96px 0;
+
+  .questions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    padding-top: 80px;
+  }
+
+  &.open {
+    .questions {
+      display: block;
+    }
+
+    .title {
+      cursor: default;
+    }
+  }
+
+  em {
+    font-style: normal;
+    color: $action-color;
+  }
+
+  .question {
+    margin-bottom: 74px;
+
+    @media #{$tablet-landscape} {
+      padding-right: 100px;
+    }
+  }
+
+  .close-faq {
+    text-align: center;
+    padding-top: 26px;
+
+    @media #{$tablet-landscape} {
+      padding-top: 54px;
+    }
+
+    img {
+      cursor: pointer;
+    }
+  }
+
+  .title {
+    margin: 0;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+
+    @media #{$mid-point} {
+      font-size: 40px;
+      line-height: 48px;
+    }
+  }
+
+  h3 {
+    margin: 0 0 8px;
+    line-height: 28px;
+    font-size: 20px;
+    letter-spacing: .3px;
+
+    @media #{$mid-point} {
+      font-size: 28px;
+      line-height: 34px;
+      letter-spacing: 0.3px;
+    }
+  }
+
+  p {
+    color: rgba(white, .7);
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    letter-spacing: -.2px;
+    line-height: 26px;
+
+    @media #{$mid-point} {
+      font-size: 20px;
+      letter-spacing: .3px;
+      line-height: 28px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

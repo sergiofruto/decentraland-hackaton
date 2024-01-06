@@ -1,0 +1,18 @@
+$default-transition: 250ms ease;
+$max-width: 1440px;
+
+$mobile-landscape: "(min-width: 568px) and (orientation: landscape)";
+$tablet: "(min-width: 640px)";
+$mid-point: "(min-width: 768px)";
+$tablet-landscape: "(min-width: 992px)";
+$desktop: "(min-width: 1200px)";
+$desktop-large: "(min-width: 1440px)";
+
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+$title-color: #1E0E27;
+$text-color: lighten(#676370, 20%);
+$action-color: #ff0055;
+$action-color-hover: #ff5373;
+$highlight-color: #F98BFF;
+$background-color: #16141A;
