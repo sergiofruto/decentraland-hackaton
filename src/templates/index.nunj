@@ -159,6 +159,67 @@
               <span>SVG GOES HERE</span>
             </a>
           </div>
+          <div
+            class="grid-item with_image"
+            style="
+              background-image: url(https://images.ctfassets.net/ea2ybdmmn1kv/1y0l7p24ItdPKRocPtYBlt/8925eebd6d7c13d046db438e68bcfbdc/listings-map-background.webp);
+              padding-top: 8px;
+            "
+          >
+            <img
+              class="grid-item-asset"
+              src="https://images.ctfassets.net/ea2ybdmmn1kv/68n98WZjhr7gAUb06eqtJt/1998a3ce149568c98c986d4f07465728/listings-map-7153be5e12cfd439e8cd8e5fa6f02293.webp"
+            />
+            <h3 class="section-title">Browse LAND Available for Rent & Sale</h3>
+            <!-- <p class="section-subtitle">
+              The Decentraland SDK is based on TypeScript (JavaScript with type
+              checking), featuring development patterns that are common among
+              game development platforms. The upcoming 6.3 version will support
+              collision events, moving players around, a polished HUD interface,
+              and more.
+            </p> -->
+            <!-- <a
+              class="go-to-link"
+              href="https://docs.decentraland.org/"
+              target="_blank"
+            >
+              Read the Docs
+              <SPAN>SVG GOES HERE</SPAN>
+            </a> -->
+          </div>
+          <div
+            class="grid-item"
+            style="
+              background-image: url(https://images.ctfassets.net/ea2ybdmmn1kv/3i5Hd6B6tAcUdC8fji0gzO/6019ed1b37355820cb014ae2ebe22ea9/listings-brand-background.webp);
+              padding-top: 8px;
+            "
+          >
+            <!-- <h2 class="top-title">
+              Make your ideas a reality in the metaverse. Find a team to build
+              with
+            </h2> -->
+            <img
+              src="https://images.ctfassets.net/ea2ybdmmn1kv/75Ft6lqEdVRHWffhN170ou/407855b37d940d0a1831ffadbd9c0859/listings-brand-874e8f8822d3489e03a44ef6c8eff4e1.webp"
+            />
+            <h3 class="section-title">
+              Make your ideas a reality in the metaverse. Find a team to build
+              with
+            </h3>
+            <!-- <p class="section-subtitle">
+              We recommend using the Builder, Decentraland's visual editor, as a
+              starting point for your art pipeline. Import and position
+              pre-made, pre-loaded custom 3D models. Export the scene to dive
+              into the code and make it fun!
+            </p> -->
+            <!-- <a
+              class="go-to-link"
+              href="https://docs.decentraland.org/examples/tutorials/"
+              target="_blank"
+            >
+              Watch tutorial
+              <SPAN>SVG GOES HERE</SPAN>
+            </a> -->
+          </div>
           <div class="grid-item">
             <h2 class="top-title">Whats new?</h2>
             <h3 class="section-title">Introducing the SDK 6.3</h3>
@@ -198,7 +259,6 @@
           </div>
         </div>
       </section>
-
       <section class="judges">
         <div class="container">
           <h1 class="section-title">Hackathon Judges</h1>

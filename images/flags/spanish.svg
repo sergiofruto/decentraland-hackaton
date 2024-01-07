@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>flag spanish</title>
+    <desc>Created with Sketch.</desc>
+    <g id="extras" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="languages" transform="translate(-48.000000, -94.000000)">
+            <g id="spanish" transform="translate(48.000000, 92.000000)">
+                <g id="flag-spanish" transform="translate(0.000000, 2.000000)">
+                    <rect id="Rectangle-12" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+                    <g id="spain">
+                        <path d="M0,8 C0,8.9785625 0.17603125,9.9159375 0.49759375,10.7825938 L8,11.47825 L15.5024062,10.7825937 C15.8239688,9.9159375 16,8.9785625 16,8 C16,7.0214375 15.8239688,6.0840625 15.5024062,5.21740625 L8,4.52175 L0.49759375,5.21740625 C0.17603125,6.0840625 0,7.0214375 0,8 Z" id="Path" fill="#FFDA44"></path>
+                        <g id="Group" transform="translate(0.468750, 0.000000)" fill="#D80027">
+                            <path d="M15.0336562,5.21740625 C13.9033125,2.17103125 10.9709688,0 7.53125,0 C4.09153125,0 1.1591875,2.17103125 0.02884375,5.21740625 L15.0336562,5.21740625 Z" id="Path"></path>
+                            <path d="M0.02884375,10.7825938 C1.1591875,13.8289687 4.09153125,16 7.53125,16 C10.9709688,16 13.9033125,13.8289687 15.0336562,10.7825938 L0.02884375,10.7825938 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

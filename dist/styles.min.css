@@ -669,6 +669,16 @@ section.build .grid-item {
     text-align: left;
   }
 }
+section.build .grid-item.with_image {
+  display: flex;
+  flex-direction: column;
+}
+section.build .grid-item .grid-item-asset {
+  flex: 1 1 auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
 section.build .grid-item:first-child {
   padding-bottom: 228px;
   background-color: #1D294C;
